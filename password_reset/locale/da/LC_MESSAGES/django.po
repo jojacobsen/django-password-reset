@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-28 09:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: password_reset/forms.py:14
+msgid "Sorry, this user doesn't exist."
+msgstr "Beklager, denne bruger eksisterer ikke."
+
+#: password_reset/forms.py:31
+msgid "Username"
+msgstr "Brugernavn"
+
+#: password_reset/forms.py:32
+msgid "Email"
+msgstr "Email"
+
+#: password_reset/forms.py:33
+msgid "Username or Email"
+msgstr "Brugernavn eller Email"
+
+#: password_reset/forms.py:55
+msgid "Sorry, inactive users can't recover their password."
+msgstr "Beklager, inaktive brugere kan ikke gendanne deres kodeord"
+
+#: password_reset/forms.py:95
+msgid "Unable to find user."
+msgstr "Brugeren kan ikke findes."
+
+#: password_reset/forms.py:102
+msgid "New password"
+msgstr "Nyt kodeord"
+
+#: password_reset/forms.py:106
+msgid "New password (confirm)"
+msgstr "Nyt kodeord (bekræft)"
+
+#: password_reset/forms.py:111
+msgid "The two passwords didn't match."
+msgstr "De to kodeord matcher ikke."
+
+#: password_reset/templates/password_reset/recovery_done.html:3
+msgid "New password set"
+msgstr "Nyt kodeord er aktivt."
+
+#: password_reset/templates/password_reset/recovery_done.html:6
+msgid ""
+"Your password has successfully been reset. You can use it right now on the "
+"login page."
+msgstr "Dit nye kodeord er nu blevet oprettet. Det kan bruges med det samme på login siden."
+
+#: password_reset/templates/password_reset/recovery_email.txt:1
+#, python-format
+msgid "Dear %(username)s,"
+msgstr "Kære %(username)s,"
+
+#: password_reset/templates/password_reset/recovery_email.txt:3
+#, python-format
+msgid ""
+"You -- or someone pretending to be you -- has requested a password reset on "
+"%(domain)s."
+msgstr "Du -- eller en anden -- har bedt om et nyt kodeord til "
+"%(domain)s."
+
+#: password_reset/templates/password_reset/recovery_email.txt:5
+msgid "You can set your new password by following this link:"
+msgstr "Du kan oprette et nyt kodeord ved at følge dette link:"
+
+#: password_reset/templates/password_reset/recovery_email.txt:9
+msgid "If you don't want to reset your password, simply ignore this email and it "
+"will stay unchanged."
+msgstr "Hvis du ikke ønsker at oprette et nyt kodeord, skal du bare ignorere denne email"
+"og det vil forblive, som det er."
+
+#: password_reset/templates/password_reset/recovery_email_subject.txt:1
+#, python-format
+msgid "Password recovery on %(domain)s"
+msgstr "Oprettelse af nyt kodeord på %(domain)s"
+
+#: password_reset/templates/password_reset/recovery_form.html:4
+msgid "Password recovery"
+msgstr "Oprettelse af nyt kodeord"
+
+#: password_reset/templates/password_reset/recovery_form.html:10
+msgid "Recover my password"
+msgstr "Opret et nyt kodeord"
+
+#: password_reset/templates/password_reset/reset.html:5
+#, python-format
+msgid "Sorry, this password reset link is invalid. You can still <a href="
+"\"%(recovery_url)s\">request a new one</a>."
+msgstr "Beklager, dette link er udløbet. Du kan i stedet <a href="
+"\"%(recovery_url)s\">bede om et nyt</a>."
+
+#: password_reset/templates/password_reset/reset.html:7
+#, python-format
+msgid "Hi, <strong>%(username)s</strong>. Please choose your new password."
+msgstr "Hej, <strong>%(username)s</strong>. Indtast venligst et nyt kodeord."
+
+#: password_reset/templates/password_reset/reset.html:11
+msgid "Set new password"
+msgstr "Opret nyt kodeord"
+
+#: password_reset/templates/password_reset/reset_sent.html:4
+msgid "Password recovery sent"
+msgstr "Anmodning om nyt kodeord er sendt"
+
+#: password_reset/templates/password_reset/reset_sent.html:7
+#, python-format
+msgid "An email was sent to <strong>%(email)s</strong> %(ago)s ago. Use the link in "
+"it to set a new password."
+msgstr "En email er blevet sendt til <strong>%(email)s</strong> %(ago)s. Klik på linket i denne"
+"for at oprette et nyt kodeord."
